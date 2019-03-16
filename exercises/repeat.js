@@ -7,7 +7,12 @@
  * Of course you may not use the method directly
  *
  */
-
+function repeat( String, Number) {
+  let result='';
+  for (let i=0; i<Number; i++) {
+     result = result + String
+  }return result
+};
 //* Begin of tests
 const assert = require('assert')
 

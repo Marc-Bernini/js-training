@@ -5,7 +5,15 @@
  * and return a string of all the element separated by a space
  *
  */
-
+const sentence = (phrase) => {
+  let result = ''
+  for (let i = 0; i < phrase.length; i++) {
+    result += phrase[i]
+    if (i < phrase.length - 1) {
+      result += ' '
+    }
+  } return result
+}
 
 //* Begin of tests
 const assert = require('assert')

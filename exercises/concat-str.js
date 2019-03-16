@@ -8,6 +8,10 @@
 
 // Your code :
 
+const concatStr = (Param1, Param2) => {let result = Param1 + Param2;
+  return result};
+  console.log(concatStr('fonct','ionne'));
+
 //* Begin of tests
 const assert = require('assert')
 

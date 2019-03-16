@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+function getFirst(mot){
+  return mot[0]
+};
 //* Begin of tests
 const assert = require('assert')
 

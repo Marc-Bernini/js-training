@@ -8,7 +8,7 @@
  */
 
 // Your code :
-
+const getLength = (param) => param.length;
 //* Begin of tests
 const assert = require('assert')
 
